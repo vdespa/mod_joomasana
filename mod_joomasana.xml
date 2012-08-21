@@ -28,6 +28,9 @@
 		<language tag="en-GB">language/en-GB/en-GB.mod_joomasana.ini</language>
 		<language tag="en-GB">language/en-GB/en-GB.mod_joomasana.sys.ini</language>
 	</languages>
+	<updateservers>
+		<server type="extension" priority="2" name="Update Server">http://www.vdespa.de/updates/j25/mod_joomasana_update.xml</server>
+	</updateservers>	
 	<help key="MOD_JOOMASANA_HELP" />
 	<config>
 		<fields name="params">
