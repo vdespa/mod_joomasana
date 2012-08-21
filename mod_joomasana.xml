@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension
+	type="module"
+	version="1.0"
+	client="site"
+	method="upgrade">
+	<name>mod_joomasana</name>
+	<author>Valentin Despa</author>
+	<creationDate>21.08.2012</creationDate>
+	<copyright>Copyright (C) 2012 - Valentin Despa. All rights reserved.</copyright>
+	<license>GNU General Public License version 3; see LICENSE.txt</license>
+	<authorEmail>info@vdespa.de</authorEmail>
+	<authorUrl>www.vdespa.de</authorUrl>
+	<version>1.0.0</version>
+	<description>MOD_JOOMASANA_DESCRIPTION</description>
+	<files>
+		<filename module="mod_joomasana">mod_joomasana.php</filename>
+		<folder>tmpl</folder>
+		<folder>language</folder>
+		<filename>asana-api-php-class.php</filename>
+		<filename>helper.php</filename>
+		<filename>index.html</filename>
+		<filename>LICENSE.txt</filename>
+		<filename>mod_joomasana.xml</filename>
+		<filename>README.md</filename>		
+	</files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_joomasana.ini</language>
+		<language tag="en-GB">en-GB.mod_joomasana.sys.ini</language>
+	</languages>
+	<help key="MOD_JOOMASANA_HELP" />
+	<config>
+		<fields name="params">
+			<fieldset name="advanced">
+				<field
+					name="twitter_bootstrap"
+					type="radio"
+					label="MOD_JOOMASANA_TWITTER_BOOTSTRAP_LABEL"
+					description="MOD_JOOMASANA_TWITTER_BOOTSTRAP_DESC">
+					<option value="1">JYES</option>			
+					<option value="0">JNO</option>					
+				</field>	
+				<field
+					name="jquery"
+					type="radio"
+					label="MOD_JOOMASANA_JQUERY_LABEL"
+					description="MOD_JOOMASANA_JQUERY_DESC">
+					<option value="1">JYES</option>			
+					<option value="0">JNO</option>					
+				</field>
+				<field
+					name="debug_mode"
+					type="radio"
+					label="MOD_JOOMASANA_DEBUG_MODE_LABEL"
+					description="MOD_JOOMASANA_DEBUG_MODE_DESC">
+					<option value="1">JYES</option>			
+					<option value="0">JNO</option>					
+				</field>								
+			</fieldset>
+		</fields>
+	</config>
+</extension>
