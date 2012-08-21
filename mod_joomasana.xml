@@ -25,8 +25,8 @@
 		<filename>README.md</filename>		
 	</files>
 	<languages>
-		<language tag="en-GB">en-GB.mod_joomasana.ini</language>
-		<language tag="en-GB">en-GB.mod_joomasana.sys.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_joomasana.ini</language>
+		<language tag="en-GB">language/en-GB/en-GB.mod_joomasana.sys.ini</language>
 	</languages>
 	<help key="MOD_JOOMASANA_HELP" />
 	<config>
